@@ -19,7 +19,7 @@ module.exports = function (config) {
 		// list of files / patterns to exclude
 		exclude: [],
 
-		plugins: ['karma-jasmine', 'karma-firefox-launcher', 'karma-coverage', 'karma-typescript'],
+		plugins: ['karma-jasmine', 'karma-chrome-launcher', 'karma-firefox-launcher', 'karma-coverage', 'karma-typescript'],
 
 		// preprocess matching files before serving them to the browser
 		// available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
@@ -48,7 +48,7 @@ module.exports = function (config) {
 
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-		browsers: ['Firefox'],
+		browsers: ['ChromeHeadless'],
 
 		// Continuous Integration mode
 		// if true, Karma captures browsers, runs the tests and exits
