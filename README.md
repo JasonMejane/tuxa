@@ -95,3 +95,8 @@ mode: SILENT
 ```
 Threshold represents the number of occurences of a given event to be detected as one of those three behaviors: cursor trashing, rage click and random scrolling.
 Time range represents the range during which at least the threshold number of occurences happens.
+
+
+## Tuxa Demo App
+
+https://github.com/JasonMejane/tuxa-demo-app
