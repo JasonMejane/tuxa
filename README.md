@@ -10,6 +10,9 @@ bower install tuxa --save
 
 ## Usage
 
+One instance of Tuxa has to be created, started and used across your application. The data is provided through two observables:
+you just need to subscribe to `behaviors$` to get the detected behaviors like rage clicks, and `flowEvents$` to get all events (all but mousemove) in order to track user actions in a particular flow.
+
 ### In an Angular app, make a service provided in root
 ```typescript
 import { Injectable } from '@angular/core';
@@ -74,8 +77,6 @@ export class TuxaService {
 ```
 Note that all the observables have to be unsubscribe in order to avoid memory leaks.
 
-This way, you just need to subscribe to `behaviors$` to get the detected behaviors like rage clicks, and `flowEvents$` to get all events (all but mousemove) in order to track user actions in a particular flow.
-
 ### Configuration
 You can use the default configuration, or you can customize it. The default configuration is:
 ```typescript
@@ -95,3 +96,12 @@ mode: SILENT
 ```
 Threshold represents the number of occurences of a given event to be detected as one of those three behaviors: cursor trashing, rage click and random scrolling.
 Time range represents the range during which at least the threshold number of occurences happens.
+
+
+## Tuxa Demo App
+
+### Github repo
+https://github.com/JasonMejane/tuxa-demo-app
+
+### Stackblitz demo
+https://stackblitz.com/edit/tuxa-demo-app
