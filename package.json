@@ -7,7 +7,7 @@
 	"scripts": {
 		"start": "nodemon src/index.ts",
 		"build": "tsc",
-		"test": "tsc && karma start karma.conf.js"
+		"test": "karma start karma.conf.js"
 	},
 	"keywords": [
 		"tuxa",

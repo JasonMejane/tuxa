@@ -20,7 +20,7 @@
 	<br/>
 	<br/>
 	<span>
-		<img src="https://github.com/JasonMejane/tuxa/actions/workflows/nodejs_master.yml/badge.svg" alt="Node.js CI" />
+		<img src="https://github.com/JasonMejane/tuxa/actions/workflows/nodejs_ci_master.yml/badge.svg" alt="Node.js CI" />
 	</span>&nbsp;
 	<span>
 		<img src="https://img.shields.io/badge/coverage-98%25-success" alt="Coverage" />
@@ -39,6 +39,16 @@ npm install tuxa --save
 yarn add tuxa
 bower install tuxa --save
 ```
+
+
+## Tuxa Demo App
+
+### Github repo
+https://github.com/JasonMejane/tuxa-demo-app
+
+### Stackblitz demo
+https://stackblitz.com/edit/tuxa-demo-app
+
 
 ## Usage
 
@@ -128,12 +138,3 @@ mode: SILENT
 ```
 Threshold represents the number of occurences of a given event to be detected as one of those three behaviors: cursor trashing, rage click and random scrolling.
 Time range represents the range during which at least the threshold number of occurences happens.
-
-
-## Tuxa Demo App
-
-### Github repo
-https://github.com/JasonMejane/tuxa-demo-app
-
-### Stackblitz demo
-https://stackblitz.com/edit/tuxa-demo-app
