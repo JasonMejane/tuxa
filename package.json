@@ -1,6 +1,6 @@
 {
 	"name": "tuxa",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "The UX Analyzer, your toolbox to help you analyze User Experience of your app.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
