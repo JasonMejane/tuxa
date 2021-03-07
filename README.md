@@ -1,5 +1,37 @@
 # Tuxa
-The UX Analyzer, your toolbox to help you analyze User Experience of your app.
+
+<p style="text-align: center;">
+	<b>The UX Analyzer, your toolbox to help you analyze User Experience of your app.</b>
+	<br/>
+	<br/>
+	<br/>
+	<span>
+		<img src="https://img.shields.io/github/v/release/JasonMejane/tuxa" alt="Release" />
+	</span>&nbsp;
+	<a href="https://www.npmjs.com/tuxa">
+    	<img src="https://img.shields.io/npm/v/tuxa.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Tuxa on npm" />
+	</a>&nbsp;
+	<span>
+		<img src="https://img.shields.io/bundlephobia/min/tuxa" alt="Package size" />
+	</span>&nbsp;
+	<span>
+		<img src="https://img.shields.io/github/license/JasonMejane/tuxa" alt="Licence" />
+	</span>
+	<br/>
+	<br/>
+	<span>
+		<img src="https://github.com/JasonMejane/tuxa/actions/workflows/nodejs_master.yml/badge.svg" alt="Node.js CI" />
+	</span>&nbsp;
+	<span>
+		<img src="https://img.shields.io/badge/coverage-98%25-success" alt="Coverage" />
+	</span>&nbsp;
+	<span>
+		<img src="https://img.shields.io/david/JasonMejane/tuxa" alt="Dependencies" />
+	</span>&nbsp;
+	<span>
+		<img src="https://img.shields.io/github/issues/JasonMejane/tuxa" alt="Issues" />
+	</span>&nbsp;
+</p>
 
 ## Installation 
 ```sh
