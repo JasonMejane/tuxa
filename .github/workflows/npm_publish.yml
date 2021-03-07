@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 14.15.5
       - run: npm ci
-	  - run: npm run build
+      - run: npm run build
       - run: npm run test
 
   publish-npm:
