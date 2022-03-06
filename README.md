@@ -26,9 +26,6 @@
 		<img src="https://img.shields.io/badge/coverage-98%25-success" alt="Coverage" />
 	</span>&nbsp;
 	<span>
-		<img src="https://img.shields.io/david/JasonMejane/tuxa" alt="Dependencies" />
-	</span>&nbsp;
-	<span>
 		<img src="https://img.shields.io/github/issues/JasonMejane/tuxa" alt="Issues" />
 	</span>&nbsp;
 </p>
